@@ -50,7 +50,12 @@ const Header = () => {
               {!auth?.user ? (
                 <>
                   <li className="nav-item">
-                    <NavLink to="/register" className="nav-link">
+                    <NavLink
+                      to={`/dashboard/${
+                        auth?.user?.role === 1 ? "admin" : "user"
+                      }`}
+                      className="nav-link"
+                    >
                       Register
                     </NavLink>
                   </li>
