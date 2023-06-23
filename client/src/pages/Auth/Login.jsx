@@ -42,7 +42,7 @@ export default function Login() {
   };
 
   return (
-    <Layout title="Register - Ecommer App">
+    <Layout title="Login - Ecommer App">
       <div className="form-container ">
         {/* //onSubmit={handleSubmit} */}
         <form onSubmit={handleSubmit}>
