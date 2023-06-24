@@ -2,7 +2,6 @@ import express from "express";
 import { isAdmin, requireSignIn } from "./../middlewares/authMiddleware.js";
 import {
   createCategoryController,
-  updateCategoryController,
   categoryControlller,
   singleCategoryController,
   deleteCategoryCOntroller,
@@ -17,14 +16,6 @@ router.post(
   requireSignIn,
   isAdmin,
   createCategoryController
-);
-
-//update category
-router.put(
-  "/update-category/:id",
-  requireSignIn,
-  isAdmin,
-  updateCategoryController
 );
 
 //getALl category
