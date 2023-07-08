@@ -6,7 +6,9 @@ import { Checkbox, Radio } from "antd";
 import { Prices } from "../components/Prices";
 import { useCart } from "../context/cart";
 import toast from "react-hot-toast";
+
 import "../styles/Homepage.css";
+
 const HomePage = () => {
   const [cart, setCart] = useCart();
   const [products, setProducts] = useState([]);
@@ -109,8 +111,15 @@ const HomePage = () => {
 
   return (
     <Layout title={"ALl Products - Best offers "}>
-      <div className="container-fluid row mt-3">
-        <div className="col-md-2">
+      <img
+        src="/images/banner.png"
+        alt="bannerimage"
+        className="banner-img"
+        width={"100%"}
+      />
+
+      <div className="container-fluid row mt-3 home-page">
+        <div className="col-md-3 filters">
           <h4 className="text-center">Filter By Category</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
