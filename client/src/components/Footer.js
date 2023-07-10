@@ -61,22 +61,22 @@ export default function Footer() {
                 </Link>{" "}
                 <p>
                   <a href="#!" className="text-reset">
-                    Angular{" "}
+                    kids collection{" "}
                   </a>{" "}
                 </p>{" "}
                 <p>
                   <a href="#!" className="text-reset">
-                    React{" "}
+                    mens - collection{" "}
                   </a>{" "}
                 </p>{" "}
                 <p>
                   <a href="#!" className="text-reset">
-                    Vue{" "}
+                    Smart Watch{" "}
                   </a>{" "}
                 </p>{" "}
                 <p>
                   <a href="#!" className="text-reset">
-                    Laravel{" "}
+                    Games{" "}
                   </a>{" "}
                 </p>{" "}
               </MDBCol>{" "}
@@ -116,11 +116,11 @@ export default function Footer() {
                 </Link>{" "}
                 <p>
                   <MDBIcon icon="home" className="me-2" />
-                  New York, NY 10012, US{" "}
+                  Ashulia, Savar{" "}
                 </p>{" "}
                 <p>
                   <MDBIcon icon="envelope" className="me-3" />
-                  info @example.com{" "}
+                  info @dune.com{" "}
                 </p>{" "}
                 <p>
                   <MDBIcon icon="phone" className="me-3" /> +01 234 567 88{" "}
@@ -137,9 +137,7 @@ export default function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           ©2023 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-            Dune.com{" "}
-          </a>{" "}
+          <a className="text-reset fw-bold"> Dune.com </a>{" "}
         </div>{" "}
       </MDBFooter>{" "}
     </div>
